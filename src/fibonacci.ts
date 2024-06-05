@@ -22,8 +22,8 @@ function countFibonacciCalls(n: number): void {
 
 // 테스트 케이스 입력 받기
 function main() {
-  const input = `3 3 4 5`;
-  const lines = input.trim().split("\n");
+  const input = `3 20 4 38 40`;
+  const lines = input.trim().split(" ");
   const T = parseInt(lines[0]);
 
   for (let i = 1; i <= T; i++) {
