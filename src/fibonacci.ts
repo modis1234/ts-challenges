@@ -1,5 +1,3 @@
-
-
 function fibonacci(n: number): number {
   if (n === 0) {
     console.log("0")
